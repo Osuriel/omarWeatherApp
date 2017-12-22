@@ -1,3 +1,5 @@
-const API_KEY = 'f052d73c5ea11a39';
+const API = require('./api.json');
+
+const API_KEY = API.key;
 
 module.exports = { API_KEY };
